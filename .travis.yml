@@ -40,6 +40,7 @@ deploy:
   api_key:
     secure: Zahj5eXsvzSUtIJEnmTGVdfr/WiwoyOV2Xf8yC1Wqg6qSVL3O5LcJVQCyzOPQyOAXjERSn87rmfCBnO4/yZT0O5I3gqvK7+HyReZeVJk6yrOdYNe5Wog5LcSKzo/ECIl/ygr1pf12eVq5m51R8eIfi2gUY7DhBiQAD9V0Ex07rjg4HYdk6QR2adRyYSJeusEuY0sTNPqtyIRePP4CyRDklJDp+FyVehUtE+O+tC/dFZHdXkSqitz3FOqNoXUpKDe65lJwV/AvUW4Wi3bV6h7e/1dzDJOPWFGjLwWdy/sdp2NPExz67RTx2IQaSqMLqoM15IOpG1PAA5+JS0UyvNvzoUxP3P+CCC6pQ0zzBTWuTivN22HMlSPNZATa1fxgQWn6E4rX16DdobsKX6pqWvybqeTa1W03T/dSC+9M0ZX6zopSs2QLEVaMMDV2Syb1/uBExCtrKJaQcFYxGdYdUIZjkU1qa6ru6sNSugSifMr4Pn/r0FFhi94DW1Xpwj5+7YY/ocNsYOrGtsmp2B2ZXIM0GKrxk75T3p7yWsLQNhhumza7WgsVNkFiTH6IJiXEsjtY+KS9N2+qu0V/vNrkrfrn2Axto/ESWKzijnGmXDzZintcDkAHduF9NoKmJiWZxTjqsG/SbNPYrxs5Qoq+XrlyZSma2wUd9nEb4os1FrzGFM=
   file: uibuild.tar.xz
+  skip_cleanup: true
   on:
     repo: iceb0y/vj4
     branch: travis-deploy
