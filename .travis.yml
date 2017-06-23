@@ -8,9 +8,8 @@ env:
   - CXX=g++-4.8 TRAVIS_NODE_VERSION="6.9.4"
 language: python
 python:
-- '3.5'
-- 3.5-dev
-- nightly
+- 3.5
+- 3.6
 install:
 - pip install -r requirements.txt
 - rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm
@@ -44,3 +43,4 @@ deploy:
   on:
     repo: iceb0y/vj4
     branch: travis-deploy
+    python: 3.5
